@@ -3,7 +3,7 @@ import React from 'react'
 import web3 from '../../web3';
 import youpin from '../../youpin';
 
-import ipfsAPI from 'ipfs-api/dist';
+import ipfsAPI from 'ipfs-api';
 const ipfs = ipfsAPI({host: 'localhost', port: '5001', protocol: 'http'});
 
 let saveImageOnIpfs = (reader) => {

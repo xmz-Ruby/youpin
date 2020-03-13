@@ -1,6 +1,6 @@
 import React from 'react'
 //需要补充BrowserRouter,否则报错无法识别浏览器路径
-import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import { HashRouter as Router,Route,Switch} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
